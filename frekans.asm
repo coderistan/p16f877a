@@ -1,4 +1,11 @@
-	list p='16f877a'
+	; @coderistan
+	; 4MHz kristal osilator
+	; CCP1 yukselen kenarda kesme
+	; TMR1 Prescaler 1:1
+	; TMR0 1:8 Prescaler 1 ms'de kesme
+	; LCD 4 bit modu
+
+        list p='16f877a'
 	#include<P16F877A.INC>
 	
 	cblock 0x20
