@@ -1,0 +1,2 @@
+TMR0 ile saniyede 1 kez LCD ekrandaki sayýyý artýran
+Ayný zamanda, terminalden gelen 0 veya 1 verisine göre LED yakýp söndüren program
