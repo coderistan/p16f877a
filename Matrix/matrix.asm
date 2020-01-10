@@ -1,4 +1,4 @@
-   	list p='16f877a'
+﻿   	list p='16f877a'
 	#include<P16F877A.INC>
 	__CONFIG h'3F31'
 	
@@ -6,27 +6,11 @@
 	gecikme1 EQU 0x21
 	gecikme2 EQU 0x22
 	gecikme3 EQU 0x23
-	w_temp EQU 0x7d
-	status_temp EQU 0x7e
-	pclath_temp EQU 0x7f
-	
+
 	ORG 0x00
 	GOTO BASLA
 	
 	ORG 0x04
-KESME
-	movwf w_temp
-	movf STATUS,w
-	movwf status_temp
-	movf PCLATH,w
-	movwf pclath_temp
-	; iþlemler
-	movf pclath_temp,w
-	movwf PCLATH
-	movf status_temp,w
-	movwf STATUS
-	swapf w_temp,w
-	swapf w_temp,f
 	retfie
 	
 GECIKME
