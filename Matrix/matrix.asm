@@ -1,4 +1,5 @@
-﻿   	list p='16f877a'
+﻿   	; dot matrix uzerinde gulen surat cizimi
+   	list p='16f877a'
 	#include<P16F877A.INC>
 	__CONFIG h'3F31'
 	
