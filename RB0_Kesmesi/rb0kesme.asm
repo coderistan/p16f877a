@@ -1,4 +1,4 @@
-	list p='16f977a'
+	list p='16f877a'
 	#include<P16F877A.INC>
 	
 	durum EQU 0x20
